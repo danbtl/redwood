@@ -2,6 +2,19 @@
 
 ## Unreleased
 
+- fix(coherence): update setup command to detect server file
+
+  The `yarn rw setup deploy coherence` command now detects if your project has the server file and configures the api prod command accordingly:
+
+  ```yml
+  # coherence.yml
+
+  api:
+    # ...
+    prod:
+      command: ["yarn", "rw", "build", "api", "&&", "yarn", "node", "api/dist/server.js", "--apiRootPath=/api"]
+  ```
+
 - fix(render): reduce memory and handle server file
 
   This PR improves Render deploys by reducing memory consumption and fixing it so that it uses the server file if it's present.

@@ -7902,11 +7902,11 @@ __metadata:
     "@types/react": "npm:^18.2.55"
     core-js: "npm:3.35.1"
     react: "npm:0.0.0-experimental-e5205658f-20230913"
-    supertokens-auth-react: "npm:0.34.0"
+    supertokens-auth-react: "npm:0.37.1"
     typescript: "npm:5.3.3"
     vitest: "npm:1.2.2"
   peerDependencies:
-    supertokens-auth-react: 0.34.0
+    supertokens-auth-react: 0.37.1
   languageName: unknown
   linkType: soft
 
@@ -31357,9 +31357,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supertokens-auth-react@npm:0.34.0":
-  version: 0.34.0
-  resolution: "supertokens-auth-react@npm:0.34.0"
+"supertokens-auth-react@npm:0.37.1":
+  version: 0.37.1
+  resolution: "supertokens-auth-react@npm:0.37.1"
   dependencies:
     intl-tel-input: "npm:^17.0.19"
     prop-types: "npm:*"
@@ -31367,8 +31367,8 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-    supertokens-web-js: ^0.7.0
-  checksum: 10c0/a6f6470e3a19a898a3c4f1c2815e13b01527cfde63beb56a43e8028acb4b7ef2710b7f53aa9a21688239b57929cf2358e44f857cb98740cb54224e61e06cfbd3
+    supertokens-web-js: ^0.9.0
+  checksum: 10c0/b39ee300defc3e74a4c698539594f8bbcbaa2d7cc3736aac4675242dd004a872027653d528812781b8553265959def5ce480662b13bb0e99c082bd66a236fd8d
   languageName: node
   linkType: hard
 
